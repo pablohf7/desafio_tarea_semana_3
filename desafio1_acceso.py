@@ -1,3 +1,6 @@
+# Programa creado para controlar acceso
+
+#Creamos el bucle while para repetir la ejecución del programa
 opcion = ''
 while opcion != 'no':
 
