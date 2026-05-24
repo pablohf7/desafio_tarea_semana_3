@@ -43,7 +43,9 @@ while opcion != 5:
             lista.append(i)
         print('RESULTAdO\n')
         print(f'La lista de numeros es:\n{lista}') # Imprimimos la lista del 1 hasta el numero ingresado
-    elif opcion != 1 or 2 or 3 or 4 or 5:
+    elif opcion == 5:
+        print('Fin del Programa') # Al seleccionar la opción 5, salimos de la ejecución del programa.
+    else:
         print('INGRESE UNA OPCIÓN VALIDA POR FAVOR') # Si no se ingresa una de la opciones del menu se imprime este mensaje
 
 
