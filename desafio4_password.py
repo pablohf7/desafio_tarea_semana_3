@@ -1,4 +1,4 @@
-# Programa para control contraseña
+# Programa para control de ingreso por contraseña
 contraseña_establecida = 'hola123' # establecemos la variable con la contraseña
 intentos = 3 # Iniciamos el contador con 3 intentos
 
