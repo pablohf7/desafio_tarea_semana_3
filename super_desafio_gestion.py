@@ -43,15 +43,8 @@ while opcion != 'no':
 print("\n=== RESULTADOS ===")
 
 for nombre, datos in estudiantes.items():
-
-    print(f"""
-Nombre: {nombre}
-Nota: {datos['nota']}
-Asistencia: {datos['asistencia']}%
-Estado: {datos['estado']}
-""")
-
-    
+    print(f"{nombre}: {datos['estado']}")
+  
 # Mostramos el resumen final
 print("\n=== RESUMEN FINAL ===")
 
